@@ -1,0 +1,29 @@
+[
+  {
+    "deal": {
+      "product_description": "Title: Refurbished Samsung Galaxy S22+ 256\u202fGB Unlocked  \nCategory: Electronics  \nBrand: Samsung  \nDescription: A refurbished unlocked Galaxy S22+ with 256\u202fGB storage running Android.  \nDetails: Features a 6.6\u2011inch display, Snapdragon\u202f8 Gen\u202f1 chipset, 50\u202fMP main camera, 12\u202fMP secondary camera, 10\u202fMP front camera, and comes with a one\u2011year Allstate warranty.",
+      "price": 205.0,
+      "url": "https://www.dealnews.com/products/Samsung/Unlocked-Samsung-Galaxy-S22-256-GB-Smartphone/346616.html?iref=rss-c142"
+    },
+    "estimate": 354.0,
+    "discount": 149.0
+  },
+  {
+    "deal": {
+      "product_description": "Title: Refurbished Apple iPhone 15 Pro 128\u202fGB  \nCategory: Electronics  \nBrand: Apple  \nDescription: A premium, refurbished iPhone 15 Pro featuring iOS, advanced camera, and high\u2011performance silicon.  \nDetails: Includes 128\u202fGB storage, unlocked for worldwide carriers, and restored to near\u2011new condition.",
+      "price": 501.0,
+      "url": "https://www.dealnews.com/products/Apple/Unlocked-Apple-iPhone-15-Pro-128-GB-Smartphone/482159.html?iref=rss-c142"
+    },
+    "estimate": 911.5335357666016,
+    "discount": 410.53353576660163
+  },
+  {
+    "deal": {
+      "product_description": "Title: Refurbished Samsung Galaxy S22 5G  \nCategory: Electronics  \nBrand: Samsung  \nDescription: 5G unlocked smartphone with flagship specs and a 6.1\u2011inch AMOLED display.  \nDetails: Powered by Snapdragon 8 Gen\u202f1, 128\u202fGB storage, 8\u202fGB RAM, 108\u202fMP rear camera, 40\u202fMP front camera, running Android with Bixby and Google Assistant.",
+      "price": 150.0,
+      "url": "https://www.dealnews.com/products/Samsung/Refurb-Unlocked-Samsung-Galaxy-S22-5-G-128-GB-Smartphone/476249.html?iref=rss-c142"
+    },
+    "estimate": 390.0520172119141,
+    "discount": 240.05201721191412
+  }
+]
