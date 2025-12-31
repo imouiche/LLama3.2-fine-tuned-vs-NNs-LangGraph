@@ -80,7 +80,7 @@
 - **15+ Models Tested** - From traditional ML to cutting-edge LLMs
 - **Ensemble Winner** - Combines best of RAG, fine-tuned Llama 3.2, and deep learning
 - **Production-Ready** - Deployed on Modal Cloud with NVIDIA A100
-- **800K Product Dataset** - Curated from Amazon, embedded with ChromaDB
+- **1M Product Dataset** - Curated from Amazon, embedded with ChromaDB
 - **Real-time Inference** - Apple Silicon (MPS) for local PyTorch, Groq for fast LLM calls
 - **Beautiful UI** - Gradio interface with 3D vector space visualization
 
@@ -175,7 +175,7 @@
 | **Execution Time** | ~60-90s for 5 deals | 2x faster than sequential |
 | **Parallel Speedup** | 3 agents simultaneously | Reduces latency by 50% |
 | **Model Accuracy** | Ensemble (lowest MSE) | Better than any single model |
-| **Database Scale** | 800K products | Comprehensive price context |
+| **Database Scale** | 1M products | Comprehensive price context |
 | **Auto-refresh** | Every 5 minutes | Continuous deal discovery |
 
 ---
@@ -209,7 +209,7 @@ Frontier (2s) → Specialist (1.5s) → NN (1s) = 4.5s per deal
 [Frontier || Specialist || NN] = max(2s, 1.5s, 1s) = 2s per deal
 ```
 
-**Result:** **2.25x faster** while maintaining full accuracy! ⚡
+**Result:** **2.25x faster** while maintaining full accuracy!
 ---
 
  ## The Seven Agents (Workflow Stages)
@@ -400,7 +400,7 @@ Final Price = 0.8 × Frontier + 0.1 × Specialist + 0.1 × Neural Network
 
 **Message Format:**
 ```
-🎉 Great Deal Found!
+Great Deal Found!
 
 Save $149.00 on Samsung Galaxy S22+
 Now: $205.00 (was ~$354.00)
@@ -478,7 +478,7 @@ After testing **15+ models** (traditional ML and LLMs), we selected a hybrid ens
 | Neural Network (Ours) | 64.2 | 0.82 | ~150ms |
 | Fine-tuned Llama | 46.8 | 0.87 | ~2000ms |
 | GPT-4 (RAG) | 30.1 | 0.92 | ~2500ms |
-| **Ensemble (Ours)** | **29.7** | **0.93** | **~2500ms** ✅ |
+| **Ensemble (Ours)** | **29.7** | **0.93** | **~2500ms**|
 
 *Lower MSE = better accuracy. Higher R² = better fit.*
 
@@ -498,7 +498,7 @@ Our Specialist Agent uses a **fine-tuned Llama 3.2 3B** model optimized for prod
 - Split the dataset into **Full** (800K) and **LITEMODE** (200K)
 - Split: 80% train, 10% validation, 10% test
 - Raw and curated datasets, full and litemode can be downloaded via my Hugging Face account below
-- [Hugging Face](https://huggingface.co/Inoussa-guru)
+- [huggingface.co/Inoussa-guru](https://huggingface.co/Inoussa-guru)
 
 **Hardware:**
 - Platform: Google Colab Pro
@@ -613,7 +613,7 @@ We used **W&B** to track training metrics in real-time:
 
 ---
 
-## 📊 Dataset & Vector Database
+## Dataset & Vector Database
 
 ### Data Curation Process
 
@@ -818,7 +818,7 @@ python tools/populate_vectordb.py --lite
 3. Stores in ChromaDB
 4. Creates searchable index
 
-## 🎮 Usage
+## Usage
 
 ### Gradio UI (Recommended)
 
@@ -972,7 +972,7 @@ timer = gr.Timer(value=300, active=False)
 
 ---
 
-## ⚡ Performance Metrics
+## Performance Metrics
 
 ### Execution Time
 
@@ -985,7 +985,7 @@ timer = gr.Timer(value=300, active=False)
 | Per deal prediction | 2-4s | All 3 models in parallel |
 | Decision | <1s | Finding best deal |
 | Messaging | 1-2s | LLM + Pushover |
-| **Total** | **60-90s** | ✅ 2x faster than sequential |
+| **Total** | **60-90s** | 2x faster than sequential |
 
 ### Accuracy Metrics
 
@@ -1005,7 +1005,7 @@ timer = gr.Timer(value=300, active=False)
 | Frontier (RAG) | 30.1 | 0.92 | ~2.5s |
 | Specialist (Fine-tuned) | 46.8 | 0.87 | ~2.0s |
 | Neural Network | 64.2 | 0.82 | ~0.2s |
-| **Ensemble** | **29.7** | **0.93** | **~2.5s** ✅ |
+| **Ensemble** | **29.7** | **0.93** | **~2.5s** |
 
 **Speedup: 2.1x faster!** ⚡
 
@@ -1030,7 +1030,7 @@ timer = gr.Timer(value=300, active=False)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 online-product-deals/
@@ -1084,7 +1084,7 @@ online-product-deals/
 
 ---
 
-### RSS Feed Source
+### Sample RSS Feed Sources
 
 **Edit:** `agents/scanner_agent.py`
 
@@ -1101,7 +1101,7 @@ RSS_URLS = [
 ```
 ---
 
-## 🎥 Demo
+## Demo
 
 <p align="center">
   <a href="https://youtu.be/eEZ3r89180U">
@@ -1124,7 +1124,7 @@ RSS_URLS = [
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to get started:
 
