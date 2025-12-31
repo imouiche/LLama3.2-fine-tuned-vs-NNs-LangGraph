@@ -83,6 +83,7 @@
 - **1M Product Dataset** - Curated from Amazon, embedded with ChromaDB
 - **Real-time Inference** - Apple Silicon (MPS) for local PyTorch, Groq for fast LLM calls
 - **Beautiful UI** - Gradio interface with 3D vector space visualization
+- [Demo Execution](https://youtu.be/eEZ3r89180U)
 
 ---
 ## Table of Contents
@@ -1239,7 +1240,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/inoussa-mouiche-ph-d-b5b5138b/)
 - 🐙 GitHub: [@imouiche](https://github.com/imouiche?tab=repositories)
 - 🐦 Google Scholar: [profile](https://scholar.google.com/citations?user=_d4cEVoAAAAJ&hl=en)
-
+- Hugging Face: [huggingface.co/Inoussa-guru](https://huggingface.co/Inoussa-guru)
 **Project Links:**
 - 💬 Discussions: [GitHub Discussions](https://github.com/imouiche/LLama3.2-fine-tuned-vs-NNs-LangGraph.git)
 
